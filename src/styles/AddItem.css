@@ -1,0 +1,28 @@
+.additem-container {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.additem-input {
+  flex: 1;
+  max-width: 300px;
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.additem-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.additem-input::placeholder {
+  color: #999;
+}

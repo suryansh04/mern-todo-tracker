@@ -1,0 +1,14 @@
+.heading-container {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.heading-title {
+  color: #333;
+
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
